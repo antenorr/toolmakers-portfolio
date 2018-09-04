@@ -1,10 +1,5 @@
 
 
-/* .content .homebody {
-  background-color: rgb(128, 207, 155);
-  width : 100vw;
-  height: 100vh;
-} */
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Lato|Poppins:400,700|Quicksand:400,700');
 
 
@@ -28,7 +23,6 @@ html {
   display: flex;
   align-items: center;
   position: fixed;
-
   z-index: 5;
   top: 0;
   left: 0;
@@ -43,7 +37,7 @@ html {
   font-family: 'Allerta Stencil', sans-serif;
   font-weight: 700;
   font-size: 1.9rem;
-  color: green;
+  color: orange;
   /*padding-left: 1.5rem;*/
 }
 .navigator ul {
@@ -59,6 +53,6 @@ html {
 .navLinks {
   text-decoration: none;
   font-size: .7rem;
-  font-family: 'Lato', sans-serif;
-  color: green;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }

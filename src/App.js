@@ -13,7 +13,7 @@ class App extends Component {
 
         <div className="menu">
           <div className="logo">
-            <h1>TABLE</h1>
+            <h1>R.A.</h1>
           </div>
           <nav className="navigator">
             <ul>

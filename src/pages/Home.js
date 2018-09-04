@@ -8,15 +8,18 @@ class Home extends Component {
             <div>
                 <div className="jumbotron">
                     <div className="jumbotron-offer">
-                        <h1>A <span>SPECIAL BLEND</span> OF COOL</h1>
-                        <p>Manhattan's boutique designer</p>
+                        <h1>Front End <br /><span>Full-Stack<br /></span>Web Developer</h1>
+                        <p>"We are the Music Makers,<br /> and we are the dreamers of dreams"<br /> -W. Wonka</p>
                         <a href="http://www.google.com" className="button">Learn More</a>
                     </div>
                 </div> 
                 <div className="section-divider">
                     <h5 className="offerfont-secdivide
-                    divider-lead">THE CREATION STORY</h5>
-                    <p className="offerfont-secdivide">Designing the perfect work or living space begins and ends <br /> with the perfect blend of energy and truth.</p>
+                    divider-lead">Roudy "The ToolMaker" Antenor</h5>
+                    <p className="offerfont-secdivide">I'm Roudy. A 'self taught' developer and IOT enthusiast.<br />
+                        I have an uncanny ability for finding the right tool to solve acute problems,<br />
+                        and love building the right tool when one cannot be found.<br />
+                        Welcome to my portfolio! </p>
                 </div>
             </div>
         );
