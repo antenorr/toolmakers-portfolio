@@ -10,18 +10,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav>
-          <div className="logo">
-            <h2>LOGO HERE</h2>
-          </div>
-          <ul>
-            <li><Link exact to="/">HOME</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
 
-        <div class="content">
+        <div className="menu">
+          <div className="logo">
+            <h1>TABLE</h1>
+          </div>
+          <nav className="navigator">
+            <ul>
+              <li><Link exact to="/" className="navLinks">HOME</Link></li>
+              <li><Link to="/portfolio" className="navLinks">PORTFOLIO</Link></li>
+              <li><Link to="/contact" className="navLinks">CONTACT</Link></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div className="content">
           <Route exact path="/" component={ Home } />
           <Route path="/portfolio" component={ Portfolio } />
           <Route path="/contact" component={ Contact } />

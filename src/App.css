@@ -1,7 +1,64 @@
 
 
-.content .homebody {
+/* .content .homebody {
   background-color: rgb(128, 207, 155);
   width : 100vw;
   height: 100vh;
+} */
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Lato|Poppins:400,700|Quicksand:400,700');
+
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.offerfont {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.scriptfont {
+  font-family: 'Lato', sans-serif;
+}
+.menu {
+  width: 70%;
+  height: 4rem;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  position: fixed;
+
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+ 
+}
+.logo {
+  flex-grow: 1;
+}
+.logo h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: green;
+  /*padding-left: 1.5rem;*/
+}
+.navigator ul {
+  margin-right: 1rem;
+}
+.navigator li {
+    display: inline-block;
+    margin-right: .3rem;
+    padding-right: .3rem;
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.navLinks {
+  text-decoration: none;
+  font-size: .7rem;
+  font-family: 'Lato', sans-serif;
+  color: green;
 }
