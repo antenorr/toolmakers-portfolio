@@ -16,16 +16,9 @@ class Contact extends Component {
       <div className="contactContent">
        <div className="mt-5">
               <p>
-                My name is Roudy.  I am a Javascript, API and real-time communication enthusiast and have studied front-end development
-                technologies for 2 years.
-              </p>
-              <p>
-                Prior to changing careers, I worked as an insurance claim adjuster in Florida while running a web design and social marketing
-                firm called X|O Webdesign & Marketing.
-              </p>
-              <p>
-                I currently hold a boot camp Course Assistant position with Trilogy Education at the Columbia University location. I love
-                to cook healthy meals and photography is my hobby.
+                Thank you visitor for exploring my site.  I'f you liked what you saw, you can reach me through the links and resume listed below.
+                I'm looking forward to meeting you in person some day to build something amazing! Until that time, take care of yourself.
+  
               </p>
         </div> 
 

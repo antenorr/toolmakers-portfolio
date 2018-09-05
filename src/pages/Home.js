@@ -15,12 +15,13 @@ class Home extends Component {
                 </div> 
                 <div className="section-divider">
                     <h5 className="offerfont-secdivide
-                    divider-lead">Roudy "The ToolMaker" Antenor</h5>
-                    <p className="offerfont-secdivide">I'm Roudy. A 'self taught' developer and IOT enthusiast.<br />
-                        I have an uncanny ability for finding the right tool to solve acute problems,<br />
-                        and love building the right tool when one cannot be found.<br />
+                    divider-lead orange-text-plain">Roudy Antenor</h5>
+                    <p className="offerfont-secdivide">I'm Roudy. I built my first website using Joomla and fell in love with web developement.<br />
+                        I've developed a passion for programming over the last couple of years, by attending on-line and in-person training classes, hackathons, <br />
+                        team-projects and programming books. When not programming I love to photograph cities, smiling people and nature.<br />
                         Welcome to my portfolio! 
                     </p>
+                    <p className=" orange-text-plain right-align">This site was built with love learning React.js</p>
                 </div>
             </div>
         );
@@ -28,4 +29,7 @@ class Home extends Component {
 }
 
 export default Home;
+
+// Heroku home page:
+// https://sheltered-crag-90684.herokuapp.com/portfolio
 

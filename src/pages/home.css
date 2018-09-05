@@ -81,3 +81,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #444444;
 }
+
+.right-align {
+  text-align: right;
+}
