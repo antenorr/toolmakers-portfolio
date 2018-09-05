@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
-
+import { Link } from 'react-router-dom'
 
 class Home extends Component {
     render () {
@@ -10,7 +10,7 @@ class Home extends Component {
                     <div className="jumbotron-offer">
                         <h1>Front End <br /><span>Full-Stack<br /></span>Web Developer</h1>
                         <p>"We are the Music Makers,<br /> and we are the dreamers of dreams"<br /> -W. Wonka</p>
-                        <a href="http://www.google.com" className="button">Learn More</a>
+                        <Link to="/portfolio" className="navLinks button" style={{ textDecoration: 'none' }}>PORTFOLIO</Link>
                     </div>
                 </div> 
                 <div className="section-divider">
@@ -19,7 +19,8 @@ class Home extends Component {
                     <p className="offerfont-secdivide">I'm Roudy. A 'self taught' developer and IOT enthusiast.<br />
                         I have an uncanny ability for finding the right tool to solve acute problems,<br />
                         and love building the right tool when one cannot be found.<br />
-                        Welcome to my portfolio! </p>
+                        Welcome to my portfolio! 
+                    </p>
                 </div>
             </div>
         );
@@ -27,3 +28,4 @@ class Home extends Component {
 }
 
 export default Home;
+

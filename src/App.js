@@ -13,13 +13,13 @@ class App extends Component {
 
         <div className="menu">
           <div className="logo">
-            <h1>R.A.</h1>
+            <h1><Link exact to="/" className="navLogo">R.A.</Link></h1>
           </div>
           <nav className="navigator">
             <ul>
-              <li><Link exact to="/" className="navLinks">HOME</Link></li>
-              <li><Link to="/portfolio" className="navLinks">PORTFOLIO</Link></li>
-              <li><Link to="/contact" className="navLinks">CONTACT</Link></li>
+              <li><Link exact to="/" className="navLinks" style={{ textDecoration: 'none' }}>HOME</Link></li>
+              <li><Link to="/portfolio" className="navLinks" style={{ textDecoration: 'none' }}>PORTFOLIO</Link></li>
+              <li><Link to="/contact" className="navLinks" style={{ textDecoration: 'none' }}>CONTACT</Link></li>
             </ul>
           </nav>
         </div>

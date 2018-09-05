@@ -1,5 +1,9 @@
 
-
+.masterDiv {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .center-fold {
   margin-top: 70px;
@@ -13,17 +17,30 @@
   height: 27rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
-  margin: 0
+  background-position: center;
+  margin: 0;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
+}
+.scrip {
+  margin: 0.6rem 0;
 }
 .roll1 {
-    background-image: url("./mesmerise.jpg");
+    background-image: url("./assets/cool-login.png");
 }
 .roll2 {
-    background-image: url("./mesmerise.jpg");
+    background-image: url("./assets/nirvana-login.png");
 }
 .roll3 {
-    background-image: url("./mesmerise.jpg");
+    background-image: url("./assets/colmar-academy.png");
+}
+.roll4 {
+    background-image: url("./assets/client-organizer.png");
+}
+.roll5 {
+    background-image: url("./assets/vanilla_rsvp.png");
+}
+.roll6 {
+    background-image: url("./assets/fresh_Start.png");
 }
 .roll.scrip {
     background-color: #f7f7f7;
@@ -54,6 +71,35 @@
   font-family: 'Allerta Stencil', sans-serif;
   font-size: .7rem;
 }
+.fold-text > .code_button {
+  background-color: green;
+}
+
 .border-atop {
   border-top: 1px solid #eee;
+}
+
+
+
+/* Creation divider */
+.top-divider {
+  margin-top: 68px;
+  margin-bottom: 0px;
+}
+.section-divider {
+  width: 100%;
+
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .section-divider h5 {
+   margin-top: 10px;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  
+ }
+ .offerfont-secdivide {
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
 }

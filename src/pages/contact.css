@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Montserrat|Lato|Poppins:400,700|Quicksand:400,700');
+
+
+
+.contactContent {
+    /* width: calc(100% - 250px); */
+    max-width: 749px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 289px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+}
+
+.contactBox {
+    color: darkgray;
+    font-size: 1.2rem;
+}
+
+.icon-mail {
+    color: orange;
+}
+.icon-linked {
+    color: #0077B5
+}
+.icon-twitter {
+    color: #1DA1F2;
+}
+.icon-github {
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.mright {
+    margin-right: 1.4rem;
+}
+
+.thank-you-section {
+    text-align: center;
+}
