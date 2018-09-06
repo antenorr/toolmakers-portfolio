@@ -88,7 +88,6 @@
 }
 .section-divider {
   width: 100%;
-
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,14 +106,15 @@
   color: orange;
   font-weight: 600;
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 .orange-text-plain {
-    color: orange;
+  color: orange;
   font-weight: 600;
 }
 
 .section2 {
+  margin-top: 2.8rem;
   background-color: rgb(223, 223, 223); 
-   box-shadow: 0 3px 9px rgba(0,0,0,.4);
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
  }

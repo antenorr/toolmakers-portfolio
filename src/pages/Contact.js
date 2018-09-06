@@ -22,13 +22,11 @@ class Contact extends Component {
               </p>
         </div> 
 
-
+        <div className="portrait"></div>
           <div className="contactBox">
-          <div className="portrait">
-
-          </div>
+       
                   <p >
-            <i className="fa fa-envelope icon-mail mright"  ></i> I can be reached by email: <span><a href="http://www.google.com" style={{ textDecoration: 'none' }}>roudyantenor@gmail.com</a></span>
+            <i className="fa fa-envelope icon-mail mright"  ></i> Email: <span><a href="http://www.google.com" style={{ textDecoration: 'none' }}>roudyantenor@gmail.com</a></span>
                   </p>
                   <p>
             <i className="fa fa-linkedin icon-linked mright"></i> Professional LinkedIn profile: <span><a href="https://www.linkedin.com/in/roudyantenor" style={{ textDecoration: 'none' }}>Roudy Antenor</a></span>
@@ -44,25 +42,18 @@ class Contact extends Component {
           </div>
           <div className="clearFloat"></div>
 
-            <div className="thank-you-section">
-              <h1>Resume & Coverletter</h1>
-            </div>
+          <div className="thank-you-section">
+            <h1>Resume & Coverletter</h1>
+          </div>
 
-              <div>
-                <ResponsiveEmbed src="./../../test.pdf" allowfullscreen />
-              </div>
-            <div className="thank-you-section">
-                <h1>Thank you</h1>
+            <div>
+              <ResponsiveEmbed src="./../../test.pdf" allowfullscreen />
+            </div>
+            <div className="thank-you-section ">
+              <h1>Thank you</h1>
             </div>
               
  
-
-    
-   
-
-
-
-   
 
 
       </div>

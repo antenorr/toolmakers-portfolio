@@ -38,7 +38,7 @@ class Portfolio extends Component {
           <div className="roll scrip border-atop">
             <div className="fold-text">
               <h3>Life's a Beach</h3>
-              <p>Inspired by Cond&egrave;  Naste, this splash page was built in HTML & CSS<br /><span className="orange-text">The Challenge:</span><br />Create a company splash page  using fonts photos and copy that would entice the visitor enought to click for more.</p>
+              <p>Inspired by Cond&egrave;  Naste, built in HTML & CSS<br /><span className="orange-text">The Challenge:</span><br />Create a travel company splash page using fonts, photos and copy to raise curiosity.</p>
               <a href="https://antenorr.github.io/nirvana_splash/" rel="noopener noreferrer" target="_blank">Explore</a>
               <a href="https://github.com/antenorr/nirvana_splash" rel="noopener noreferrer" target="_blank" className="code_button" >Code</a>
             </div>
@@ -47,7 +47,7 @@ class Portfolio extends Component {
           <div className="roll scrip border-atop">
             <div className="fold-text">
               <h3>Get Your Study On</h3>
-              <p>Geared towards college students, this site was built using HTMLS & CSS.<br /> <span className="orange-text">The Challenge:</span><br />Create a fully responsive UI that would allow students the freedom to explore different options that a typical school may offer.</p>
+              <p>A university website, built using HTMLS, css and Media Queries for responsiveness.<br /> <span className="orange-text">The Challenge:</span><br />Create a fully responsive user interface using media queries.</p>
               <a href="https://antenorr.github.io/project-colmar/" rel="noopener noreferrer" target="_blank">Explore</a>
               <a href="https://github.com/antenorr/project-colmar" rel="noopener noreferrer" target="_blank" className="code_button" >Code</a>
             </div>
@@ -67,7 +67,7 @@ class Portfolio extends Component {
           <div className="roll scrip">
             <div className="fold-text">
               <h3>Client Organizer</h3>
-              <p>A client organizer application built with Google's Materialize library, Javascript & Firebase<br /> <span className="orange-text">The Challenge:</span><br />Create a clean responsive interface using a lightweight library, and persisting data with FireBase </p>              
+              <p>A new client application built with Google's Materialize library, Javascript & Firebase<br /> <span className="orange-text">The Challenge:</span><br />Create a responsive clutter free interface using Material components, and persisting data with FireBase.</p>              
               <a href="https://antenorr.github.io/new_client_organizer/" rel="noopener noreferrer" target="_blank" className="more-butt">Explore</a>
               <a href="https://github.com/antenorr/new_client_organizer" rel="noopener noreferrer" target="_blank" className="code_button" >Code</a>
             </div>
@@ -76,7 +76,7 @@ class Portfolio extends Component {
           <div className="roll scrip border-atop">
             <div className="fold-text">
               <h3>Dinner for Two?</h3>
-              <p>The quintessential RSVP application built with Javascript<br /> <span className="orange-text">The Challenge:</span><br />re-create an RSVP application while documenting the purpose behind every command (Great Learning experience).</p>             
+              <p>The quintessential RSVP application built with Javascript.<br /><span className="orange-text">The Challenge:</span><br />re-create an RSVP application documenting the purpose of every command.</p>             
                <a href="https://antenorr.github.io/vanilla_js_rsvp/" rel="noopener noreferrer" target="_blank">Explore</a>
               <a href="https://github.com/antenorr/vanilla_js_rsvp" rel="noopener noreferrer" target="_blank" className="code_button" >Code</a>
             </div>
@@ -85,7 +85,7 @@ class Portfolio extends Component {
           <div className="roll scrip border-atop">
             <div className="fold-text">
               <h3>A Fresh Start</h3>
-              <p>This website was designed in Wordpress employing a CMS builder <br /> <span className="orange-text">The Challenge:</span><br />Create a fully functioning site offering information to visitors and the opportunity to send messages.</p>              
+              <p>This website was designed in Wordpress employing a CMS builder<br /> <span className="orange-text">The Challenge:</span><br />Create a full site offering information and the opportunity to send messages.</p>              
               <a href="https://pharagladden.com/" rel="noopener noreferrer" target="_blank">Explore</a>
               <a  rel="noopener noreferrer" target="_blank" className="code_button" >A Wordpress Design</a>
             </div>

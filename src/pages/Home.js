@@ -9,7 +9,7 @@ class Home extends Component {
                 <div className="jumbotron">
                     <div className="jumbotron-offer">
                         <h1>Front End <br /><span>Full-Stack<br /></span>Web Developer</h1>
-                        <p>"We are the Music Makers,<br /> and we are the dreamers of dreams"<br /> -W. Wonka</p>
+                        <p>"We are the Music Makers,<br /> and we are the dreamers of dreams"<br /><span className="quote">-W. Wonka</span></p>
                         <Link to="/portfolio" className="navLinks button" style={{ textDecoration: 'none' }}>PORTFOLIO</Link>
                     </div>
                 </div> 
@@ -18,10 +18,10 @@ class Home extends Component {
                     divider-lead orange-text-plain">Roudy Antenor</h5>
                     <p className="offerfont-secdivide">I'm Roudy. I built my first website using Joomla and fell in love with web developement.<br />
                         I've developed a passion for programming over the last couple of years, by attending on-line and in-person training classes, hackathons, <br />
-                        team-projects and programming books. When not programming I love to photograph cities, smiling people and nature.<br />
+                        team-projects and programming books. When not programming I love to photograph city life, smiling people and nature.<br />
                         Welcome to my portfolio! 
                     </p>
-                    <p className=" orange-text-plain right-align">This site was built with love learning React.js</p>
+                    <p className="orange-text-plain center-align">This site was built with love learning React.js</p>
                 </div>
             </div>
         );
