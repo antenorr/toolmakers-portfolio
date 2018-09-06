@@ -17,13 +17,16 @@ class Contact extends Component {
        <div className="mt-5">
               <p>
                 Thank you visitor for exploring my site.  I'f you liked what you saw, you can reach me through the links and resume listed below.
-                I'm looking forward to meeting you in person some day to build something amazing! Until that time, take care of yourself.
+            I'm looking forward to meeting you in person some day to build something amazing! Until that time, take care of yourself.
   
               </p>
         </div> 
 
 
-              <div className="contactBox">
+          <div className="contactBox">
+          <div className="portrait">
+
+          </div>
                   <p >
             <i className="fa fa-envelope icon-mail mright"  ></i> I can be reached by email: <span><a href="http://www.google.com" style={{ textDecoration: 'none' }}>roudyantenor@gmail.com</a></span>
                   </p>
@@ -36,7 +39,10 @@ class Contact extends Component {
                   <p>
             <i className="fa fa-github icon-github mright"></i> GitHub profile: <span><a href="https://github.com/antenorr" style={{ textDecoration: 'none' }}>antenorr</a></span>
                   </p>
-              </div>
+     
+                 
+          </div>
+          <div className="clearFloat"></div>
 
             <div className="thank-you-section">
               <h1>Resume & Coverletter</h1>

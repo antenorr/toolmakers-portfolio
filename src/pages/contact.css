@@ -42,3 +42,31 @@ a {
 .thank-you-section {
     text-align: center;
 }
+
+.portrait {
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
+  border-radius: 50px;
+    
+    background-image: url("./assets/portrait.jpg");
+    float: left;
+}
+
+.clearFloat {
+    clear: left;
+}
+
+
+@media only screen and (max-width: 650px) { 
+    .portrait {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
