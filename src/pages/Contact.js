@@ -43,11 +43,11 @@ class Contact extends Component {
           <div className="clearFloat"></div>
 
           <div className="thank-you-section">
-            <h1>Resume & Coverletter</h1>
+            <h1>Resume</h1>
           </div>
 
             <div>
-              <ResponsiveEmbed src="./../../test.pdf" allowfullscreen />
+              <ResponsiveEmbed src="./../../resume_9_5.pdf" allowfullscreen />
             </div>
             <div className="thank-you-section ">
               <h1>Thank you</h1>
