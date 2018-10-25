@@ -47,7 +47,7 @@ class Contact extends Component {
           </div>
 
             <div>
-              <ResponsiveEmbed src="./../../resume_10.pdf" allowfullscreen />
+          <ResponsiveEmbed src="./../../front_end_developer_resume_11.pdf" allowfullscreen />
             </div>
             <div className="thank-you-section ">
               <h1>Thank you</h1>
